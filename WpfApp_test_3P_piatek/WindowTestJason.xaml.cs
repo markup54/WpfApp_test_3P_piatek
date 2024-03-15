@@ -22,7 +22,7 @@ namespace WpfApp_test_3P_piatek
     /// </summary>
     public partial class WindowTestJason : Window
     {
-        List<Pytanie2> listaPytan { get; set; }
+        public List<Pytanie2> listaPytan { get; set; }
         public WindowTestJason()
         {
             InitializeComponent();
@@ -35,8 +35,9 @@ namespace WpfApp_test_3P_piatek
             StreamReader streamReader = new StreamReader("../../../pytaniaJson.txt");
             string pytaniaJason = streamReader.ReadToEnd();
             streamReader.Close();
-           
-            listaPytan = JsonSerializer.Deserialize<List<Pytanie2>>(pytaniaJason);
+            using FileStream openStream = File.OpenRead("../../../pytaniaJson.txt");
+
+            listaPytan = JsonSerializer.Deserialize<List<Pytanie2>>(openStream);
                
         }
 

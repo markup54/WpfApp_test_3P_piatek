@@ -1,4 +1,4 @@
-  
+  [
       {
             "Tresc": "Czy Android został zbudowany na podstawie systemu operacyjnego Windows?",
             "Odpowiedz": "nie"
@@ -19,3 +19,4 @@
             "Tresc": "Czy qt to framework w Javie?",
             "Odpowiedz": "nie"
         }
+        ]
