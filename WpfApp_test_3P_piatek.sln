@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_test_3P_piatek", "WpfApp_test_3P_piatek\WpfApp_test_3P_piatek.csproj", "{ACCE2F21-3BD1-479B-AEAC-78EF92A8262B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACCE2F21-3BD1-479B-AEAC-78EF92A8262B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCE2F21-3BD1-479B-AEAC-78EF92A8262B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCE2F21-3BD1-479B-AEAC-78EF92A8262B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCE2F21-3BD1-479B-AEAC-78EF92A8262B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA584CF4-E38A-4C6B-BE16-45A806F3C879}
+	EndGlobalSection
+EndGlobal

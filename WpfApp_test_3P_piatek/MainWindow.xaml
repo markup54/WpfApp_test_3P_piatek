@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp_test_3P_piatek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_test_3P_piatek"
+        mc:Ignorable="d"
+        Title="Aplikacja wykonana przez 00000000000" 
+        Height="250" 
+        Width="800">
+    <UniformGrid Rows="1">
+        <Button Margin="30"
+                Background="DarkGreen"
+                Foreground="LemonChiffon"
+                FontSize="40"
+                Click="Button_Test_Click"
+                >Uruchom test</Button>
+        <Button Margin="30"
+                Background="DarkGreen"
+                Foreground="LemonChiffon"
+                FontSize="40"
+                Click="Button_Dodaj_Click"
+                >Dodaj nowe pytanie</Button>
+    </UniformGrid>
+</Window>
