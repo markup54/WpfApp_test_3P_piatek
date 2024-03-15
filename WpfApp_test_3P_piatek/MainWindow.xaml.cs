@@ -27,7 +27,7 @@ namespace WpfApp_test_3P_piatek
 
         private void Button_Test_Click(object sender, RoutedEventArgs e)
         {
-            Window okno = new WindowTest();
+            Window okno = new WindowTestJason();
             okno.ShowDialog();
         }
 

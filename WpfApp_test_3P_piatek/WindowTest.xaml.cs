@@ -20,11 +20,14 @@ namespace WpfApp_test_3P_piatek
     /// </summary>
     public partial class WindowTest : Window
     {
-        List<Pytanie> listaPytan { get; set; }
+        public List<Pytanie> listaPytan { get; set; }
+        public int ktorePytanie { get; set; }
+        public int liczbaPunktow { get; set; }
         public WindowTest()
         {
             InitializeComponent();
             przygotuPytania();
+            ktorePytanie = 0;
             wyswietlPytanie(0);
         }
 
@@ -49,6 +52,38 @@ namespace WpfApp_test_3P_piatek
                 odp = streamReader.ReadLine();
             }
             streamReader.Close();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            obslugaPrzycisku(true);
+
+        }
+        private void sprawdzOdpowiedz(bool odp,int numerPytania)
+        {
+            if(odp == listaPytan[numerPytania].Odpowiedz)
+            {
+                liczbaPunktow++;
+            }
+        }
+        private void obslugaPrzycisku(bool odpowiedz)
+        {
+           sprawdzOdpowiedz(odpowiedz,ktorePytanie);
+            ktorePytanie++;
+            if (ktorePytanie == listaPytan.Count)
+            {
+                MessageBox.Show("Koniec testu, wynik: "+liczbaPunktow.ToString());
+                Close();
+            }
+            else
+            {
+                wyswietlPytanie(ktorePytanie);
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            obslugaPrzycisku(false);
         }
     }
 }

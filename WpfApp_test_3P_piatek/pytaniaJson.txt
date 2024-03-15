@@ -1,0 +1,21 @@
+  
+      {
+            "Tresc": "Czy Android został zbudowany na podstawie systemu operacyjnego Windows?",
+            "Odpowiedz": "nie"
+        },
+        {
+            "Tresc": "Czy WPF to środowisko do aplikacji desktopowych?",
+            "Odpowiedz": "tak"
+        },
+        {
+            "Tresc": "Czy Jetpack Compose wykorzystuje język XML?",
+            "Odpowiedz": "nie"
+        },
+        {
+            "Tresc": "Czy Angular jest frameworkiem do obsługi baz danych?",
+            "Odpowiedz": "nie"
+        },
+        {
+            "Tresc": "Czy qt to framework w Javie?",
+            "Odpowiedz": "nie"
+        }

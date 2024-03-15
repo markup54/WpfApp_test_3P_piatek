@@ -1,11 +1,11 @@
-﻿<Window x:Class="WpfApp_test_3P_piatek.WindowTest"
+﻿<Window x:Class="WpfApp_test_3P_piatek.WindowTestJason"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp_test_3P_piatek"
         mc:Ignorable="d"
-        Title="Test" Height="450" Width="800">
+        Title="WindowTestJason" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -28,7 +28,7 @@
         <Button Grid.Row="1" Margin="60"
                 Click="Button_Click">Tak</Button>
         <Button Grid.Row="1" Grid.Column="1" Margin="60" Click="Button_Click_1">Nie</Button>
-        
+
 
     </Grid>
 </Window>
